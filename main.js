@@ -6,7 +6,7 @@ import fetch from 'node-fetch';
 import { configF } from './config.js';
 const searchUrl = configF();
 
-//const searchUrl = `https://content.guardianapis.com/search?q=weather&show-fields=thumbnail,trailText&api-key=ccb28ddf-abfc-4af7-bce6-0c4d6270bdb9`;
+//const searchUrl = `https://content.guardianapis.com/search?q=weather&show-fields=thumbnail,trailText&api-key=Guardian_API_KEY`;
 
 document.addEventListener("DOMContentLoaded", function () {
 
